@@ -1,1 +1,263 @@
-:root{--hue:220;--sat:100;--light:81}li,p{font-size:16px}img{width:100%}.main-heading{color:orange;text-decoration:underline;font-family:monospace}section{margin-bottom:20px}header{position:fixed;width:100%;z-index:1000}header .navbar{background-color:rgba(0,0,0,.6)}header .navbar .navbar-brand{letter-spacing:.08em}header .navbar .navbar-brand span{font-size:large;font-weight:700;border:2px solid orange;padding:2px 6px;letter-spacing:0;margin:1px}#introduction{background:url(../images/into_background.jpg);background-size:cover;background-repeat:no-repeat;height:100vh;width:100vw;color:azure}#introduction .container .row .col-sm-12 .profile_picture{margin:20vh auto auto;width:100px;height:100px;border:2px solid #ff0;-webkit-box-shadow:0 8px 5px #444;box-shadow:0 8px 5px #444;border-radius:50px;overflow:hidden;-webkit-transform:rotate(20deg);transform:rotate(20deg)}#introduction .container .row .col-sm-12 .profile_information{margin:auto;padding:20px;text-align:center}#introduction .container .row .col-sm-12 .profile_information h2{font-weight:600;font-variant:small-caps}#introduction .container .row .col-sm-12 .profile_information h6{letter-spacing:.1em;font-weight:400}#introduction .container .row .col-sm-12 .send_mail_button{border:2.6px solid orange;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;padding:4px 10px;margin:20px auto}#introduction .container .row .col-sm-12 .send_mail_button a{color:orange;font-weight:500;letter-spacing:.08em}#about .container .row .col-sm-12 p{text-align:justify;line-height:1.2em;padding:5px;text-indent:2em;font-family:Lucida Sans,Verdana,sans-serif;font-size:15px}#about .container .row .col-sm-12 p:first-letter{font-size:2em;font-family:Cambria,Cochin,Georgia,Times,Times New Roman,serif;color:orange}#skills{background-color:#000;padding:10px 0}#skills .container .row .col-sm-12 .skill{padding:4px;font-size:small;font-family:Cambria,Cochin,Georgia,Times,Times New Roman,serif;letter-spacing:.04em;color:#fff}#skills .container .row .col-sm-12 .skill .right{float:right}#skills .container .row .col-sm-12 .skill .outer{border:1px solid #aaa;height:8px;border-radius:2px}#skills .container .row .col-sm-12 .skill .inner{background-color:orange;height:100%}#gallery .container .row .col-sm-12{margin:10px;-webkit-box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);padding:0}#gallery .container .row .col-sm-12 figcaption{font-weight:400;letter-spacing:.04em;font-family:monospace;padding:10px}footer{background-color:#000;padding:10px 0}footer .container .row .col-sm-12 nav{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}footer .container .row .col-sm-12 nav li{list-style:none;padding:10px;font-size:48px;display:inline}footer .container .row .col-sm-12 nav li a{color:#f0f8ff}
+/*==========
+Scroll bar
+==========*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: orange;
+}
+
+
+/*==========
+General
+==========*/
+
+p,li{
+  font-size: 16px;
+}
+
+img{
+  width: 100%;
+}
+
+.main-heading{
+  color: orange;
+  text-decoration: underline;
+  font-family: monospace;
+}
+
+section{
+  margin-bottom: 20px;
+}
+
+/*==========
+Header
+==========*/
+
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+header .navbar{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+header .navbar .navbar-brand{
+  letter-spacing: .08em;
+}
+
+header .navbar .navbar-brand span{
+  font-size: large;
+  font-weight: bold;
+  border: 2px solid orange;
+  padding: 2px 6px;
+  letter-spacing: 0;
+  margin: 1px;
+}
+
+/*==========
+Introduction
+==========*/
+
+#introduction{
+  background: url("../images/into_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: azure;
+}
+
+#introduction .container .row .col-sm-12 .profile_picture{
+  margin: auto;
+  margin-top: 20vh;
+  width: 100px;
+  height: 100px;
+  border: 2px solid yellow;
+  box-shadow:0 8px 5px #444;
+  border-radius: 50px;
+  overflow: hidden;
+  transform: rotate(20deg);
+}
+
+#introduction .container .row .col-sm-12 .profile_information{
+  margin: auto;
+  padding:20px;
+  text-align: center;
+}
+
+#introduction .container .row .col-sm-12 .profile_information h2{
+  font-weight: 600;
+  font-variant: small-caps;
+} 
+
+#introduction .container .row .col-sm-12 .profile_information h6{
+  letter-spacing: .1em;
+  font-weight: 400;
+} 
+
+#introduction .container .row .col-sm-12 .send_mail_button{
+  border: 2.6px solid orange;
+  width: fit-content;
+  padding: 4px 10px;
+  margin: 20px auto;
+}
+
+#introduction .container .row .col-sm-12 .send_mail_button a{
+  color: orange;
+  font-weight: 500;
+  letter-spacing: .08em;
+}
+
+/*==========
+About
+==========*/
+
+#about .container .row .col-sm-12 #frame{
+  border: 10px solid #333;
+  transform: rotate(-8deg);
+  height: 340px;
+  background: #eee;
+}
+
+#about .container .row .col-sm-12 #frame img{
+  object-fit: cover;
+  border: 10px solid #333;
+  transform: rotate(8deg);
+  height: 100%;
+}
+
+#about .container .row .col-sm-12 p{
+  text-align: justify;
+  line-height: 1.2em;
+  padding: 5px;
+  text-indent: 2em;
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+  font-size: 15px;
+}
+
+#about .container .row .col-sm-12 blockquote{
+  background-color: #eee;
+}
+
+#about .container .row .col-sm-12 blockquote span{
+  padding: 5px;
+  padding-left: 25px;
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+#about .container .row .col-sm-12 blockquote::before {
+  content: '\201D';
+  width: 50px;
+  font-family: 'Georgia',serif;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: orange;
+  position: absolute;
+  left: 0;
+}
+
+/*==========
+Skills
+==========*/
+
+#skills{
+  background-color: #222;
+  padding: 10px 0px;
+}
+
+#skills .container .row .col-sm-12 .skill{
+  padding: 4px;
+  font-size: small;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: .04em;
+  color: white;
+}
+
+#skills .container .row .col-sm-12 .skill .right{
+  float: right;
+}
+
+#skills .container .row .col-sm-12 .skill .outer{
+  border: 1px solid #aaa;
+  height: 8px;
+  border-radius: 2px;
+}
+
+#skills .container .row .col-sm-12 .skill .inner{
+  background-color: orange;
+  height: 100%;
+}
+
+/*==========
+Gallery
+==========*/
+
+#gallery .container .row .col-sm-12{
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0;
+}
+
+#gallery .container .row .col-sm-12:hover{
+  margin: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+  padding: 0;
+}
+
+
+/*==========
+Contact
+==========*/
+
+footer{
+  background-color: #222;
+  padding: 10px 0;
+}
+
+footer .container .row .col-sm-12 nav{
+  justify-content: center;
+}
+
+footer .container .row .col-sm-12 nav li{
+  list-style: none;
+  padding: 10px;
+  display: inline;
+}
+
+footer .container .row .col-sm-12 nav li a{
+  color: aliceblue;
+  font-size: 48px;
+}
+
+footer .container .row .col-sm-12 nav li a:hover{
+  color: orange;
+  font-size: 46px;
+}
+
+footer .container .row .col-sm-12 nav li a:focus{
+  color: orange;
+}
+
