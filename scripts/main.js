@@ -5,11 +5,11 @@
         flag:0,
         word:''
     }
-}
+}*/
 
 var View={
     //Introduction
-    type:function(){
+    /*type:function(){
         Model.typing.word=Model.typing.words[Model.typing.iType];//initializing word
         if(Model.typing.jType<Model.typing.word.length && Model.typing.flag==0){
             Model.typing.jType=View.typeAdd(Model.typing.jType);//type call
@@ -35,14 +35,14 @@ var View={
                 Model.typing.iType=0;
             }
         }
-    },
+    },*/
     introductionAnimate:function(){
         //profile Picture animation
         document.getElementsByClassName('profile_picture')[0].style.transitionDelay='1.5s';
         document.getElementsByClassName('profile_picture')[0].style.transitionDuration='2s';
         document.getElementsByClassName('profile_picture')[0].style.transform='rotate(0deg)';
         //type function call
-        this.type();
+        //this.type();
     }
 }
 
@@ -52,7 +52,7 @@ var Controller={
     }
 }
 
-Controller.init();*/
+Controller.init();
 
 // Uncomment to enable Bootstrap tooltips
 // https://getbootstrap.com/docs/4.0/components/tooltips/#example-enable-tooltips-everywhere
