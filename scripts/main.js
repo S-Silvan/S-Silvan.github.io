@@ -1,4 +1,4 @@
-var Model={
+/*var Model={
     typing:{
         iType:0,jType:0,
         words:['Java','Web','Android'],
@@ -52,7 +52,7 @@ var Controller={
     }
 }
 
-Controller.init();
+Controller.init();*/
 
 // Uncomment to enable Bootstrap tooltips
 // https://getbootstrap.com/docs/4.0/components/tooltips/#example-enable-tooltips-everywhere
