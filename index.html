@@ -21,48 +21,62 @@
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="index.html"><span>D</span>eveloper</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#introduction">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-    </header>
-
-    <section id="introduction">
+    <header class="bg-dark sticky-top">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
-            <div class="profile_picture">
-              <img src="images/profile_picture.jpg" alt="Silvan">
-            </div>
+          <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <a class="navbar-brand font-weight-bold" href="index.html" style="letter-spacing: 2px;"><span class="text-warning">D</span>eveloper</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#introduction">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="introduction" style="background: url('../images/into_background.jpg');background-size: cover;height: 250px;">
+      <div class="container">
+        <div class="row">
+         
+        </div>
+      </div>
+    </section>
+
+    <section class="profile" style="margin-top:-50px">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-end">
+          <div class="profile_picture">
+            <img class="shadow-md" style="width:140px;margin-top:-30px;border:3px solid snow;" src="images/profile_picture.jpg" alt="Silvan">
+          </div>
+          <div class="ml-3">
             <div class="profile_information">
-              <h2>Silvan S</h2>
-              <h6><span id="word"></span>Java Developer</h6>
-              <ul></ul>
+              <h3 class="text-dark">Silvan S</h3>
+              <h6 class="text-secondary">Java developer</h6>
             </div>
-            <div class="send_mail_button">
-              <a href="mailto:silvan8124@gmail.com">Send Mail</a>
-            </div>
+          </div>
+          <div class="ml-auto">
+            <nav class="contact">
+              <li><a href="https://www.linkedin.com/in/silvan2298" class="text-secondary"><span class="fa fa-linkedin-square" aria-hidden="true"></span></a></li>
+              <li><a href="https://twitter.com/SilvanS73398489" class="text-secondary"><span class="fa fa-twitter-square" aria-hidden="true"></span></a></li>
+              <li><a href="http://instagram.com/_silvan_s_" class="text-secondary"><span class="fa fa-instagram" aria-hidden="true"></span></a></li>
+              <li><a href="https://github.com/S-Silvan/" class="text-secondary"><span class="fa fa-github" aria-hidden="true"></span></a></li>
+            </nav>
           </div>
         </div>
       </div>
@@ -72,89 +86,70 @@
       <div class="container">
         <p class="main-heading">About</p>
         <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <div id="frame">
-              <img src="images\description.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6">
-            <p>I am Silvan S hardworking, organized and enthusiastic developer with a Bachelor degree in Computer Science and Engineering. 
-              I have learned this development thing through online learning platforms like  Udacity and youtube. My hobby is watching movies and listening to music. I am curious to create something on my own, eager to solve problems and love to learn new things. My goal is to become a good programmer.</p>
-            <blockquote><span>'Hard work beats talent when talent fails to work hard'.</span></blockquote>
+          <div class="col-sm-12">
+            <p>I am Silvan S and, I live in Chennai. I did my graduation with B.E. Computer Science and Engineering from Loyola Institute of Technology. I have learned Java, Servlets, Hibernate, Spring, Spring Boot, Angular, Microservice during my training in Revature and also done projects like the e-learning web application, Reimbursement system, POS system using those technologies. I have done internships for Schneider Electric and Letfix Technologies in Front-end web Technologies. <a href="">more</a></p>
           </div>
         </div>
       </div>
     </section>
 
-    <!--<section id="serivce">
-      <div class="container">
-        <p class="main-heading">Serivce</p>
-        <div class="row">
-          
-        </div>
-      </div>
-    </section>-->
-
-    <section id="skills">
+    <section id="skills" class="bg-dark text-light py-5">
       <div class="container">
         <p class="main-heading">Skills</p>
         <div class="row">
           <div class="col-sm-12 col-md-6">
 
-            <div class="skill">
-              <div><span class="left">Java</span><span class="right">70%</span></div>
-              <div class="outer"><div class="inner" style="width: 70%;" id="javaSkill"></div></div>
+            <div class="form-group">
+              <label for="">Java 8</label>
+              <div class="progress border border-warning bg-dark" style="height: 8px;">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
 
-            <div class="skill">
-              <div>Web development<span class="right">80%</span></div>
-              <div class="outer"><div class="inner" style="width: 80%;" id="webDevelopmentSkill"></div></div>
+            <div class="form-group">
+              <label for="">MySQL</label>
+              <div class="progress border border-warning bg-dark" style="height: 8px;">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
 
-            <div class="skill">
-              <div>Android Application development<span class="right">60%</span></div>
-              <div class="outer"><div class="inner" style="width: 60%;" id="appDevelopmentSkill"></div></div>
-            </div>
-
-            <div class="skill">
-              <div>SQL<span class="right">65%</span></div>
-              <div class="outer"><div class="inner" style="width: 65%;" id="sqlSkill"></div></div>
-            </div>
-            
-            <div class="skill">
-              <div>Python<span class="right">Basic</span></div>
-              <div class="outer"><div class="inner" style="width: 40%;" id="pythonSkill"></div></div>
+            <div class="form-group">
+              <label for="">Angular</label>
+              <div class="progress border border-warning bg-dark" style="height: 8px;">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
 
           </div>
 
           <div class="col-sm-12 col-md-6">
 
-            <div class="skill">
-              <div>C\C++<span class="right">Basic</span></div>
-              <div class="outer"><div class="inner" style="width: 40%;" id="ccppSkill"></div></div>
+            <div class="form-group">
+              <label for="">Hibernate</label>
+              <div class="progress border border-warning bg-dark" style="height: 8px;">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
 
-            <div class="skill">
-              <div><span class="left">GitHub</span><span class="right">80%</span></div>
-              <div class="outer"><div class="inner" style="width: 80%;" id="githubSkill"></div></div>
+            <div class="form-group">
+              <label for="">Spring Boot</label>
+              <div class="progress border border-warning bg-dark" style="height: 8px;">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
 
-            <div class="skill">
-              <div>3D Modelling<span class="right">65%</span></div>
-              <div class="outer"><div class="inner" style="width: 65%;" id="modellingSkill"></div></div>
+            <div class="form-group">
+              <label for="">Microservice</label>
+              <div class="progress border border-warning bg-dark" style="height: 8px;">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
 
-            <div class="skill">
-              <div><span class="left">Photoshop</span><span class="right">50%</span></div>
-              <div class="outer"><div class="inner" style="width: 50%;" id="photoshopSkill"></div></div>
-            </div>
-
-            <div class="skill">
-              <div><span class="left">Filmora</span><span class="right">90%</span></div>
-              <div class="outer"><div class="inner" style="width: 90%;" id="filmoraSkill"></div></div>
-            </div>
-
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <a href="#" class="btn btn-outline-warning">More</a>
           </div>
         </div>
       </div>
@@ -164,26 +159,45 @@
       <div class="container">
         <p class="main-heading">Gallery</p>
         <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <figure>
-              <a href="http:\\letfixtechnologies.com"><img src="images/letfix_technologies_website.jpg" alt="LETFIX_Technologies"></a>
-            </figure>
-          </div>
+
+            <div class="col-lg-4">
+              <img src="images/letfix_technologies_website.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title mb-0">Letfix Technologies</h5>
+                <p class="card-text text-secondary">Front-end developer</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <img src="images/game.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title mb-0">Imposter</h5>
+                <p class="card-text text-secondary">3D Artist</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <img src="images/real-sports.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title mb-0">Real Sports</h5>
+                <p class="card-text text-secondary">Backend developer</p>
+              </div>
+            </div>
+
         </div>
       </div>
     </section>
 
-    <footer id="contact">
+    <footer id="contact" class="bg-dark py-5">
       <div class="container">
         <p class="main-heading">Contact</p>
         <div class="row">
           <div class="col-sm-12">
-            <nav>
-              <li><a href="https://www.linkedin.com/in/silvan2298"><span class="fa fa-linkedin-square" aria-hidden="true"></span></a></li>
-              <li><a href="https://twitter.com/SilvanS73398489"><span class="fa fa-twitter-square" aria-hidden="true"></span></a></li>
-              <li><a href="http://instagram.com/_silvan_s_"><span class="fa fa-instagram" aria-hidden="true"></span></a></li>
-              <!--<li><a href="https://www.youtube.com/channel/UCxQu5VsB-UkACnQmmELQzEQ/"><span class="fa fa-youtube-play" aria-hidden="true"></span></a></li>-->
-              <li><a href="https://github.com/S-Silvan/"><span class="fa fa-github" aria-hidden="true"></span></a></li>
+            <nav class="contact">
+              <li><a href="https://www.linkedin.com/in/silvan2298" class="text-light"><span class="fa fa-linkedin-square" aria-hidden="true"></span></a></li>
+              <li><a href="https://twitter.com/SilvanS73398489" class="text-light"><span class="fa fa-twitter-square" aria-hidden="true"></span></a></li>
+              <li><a href="http://instagram.com/_silvan_s_" class="text-light"><span class="fa fa-instagram" aria-hidden="true"></span></a></li>
+              <li><a href="https://github.com/S-Silvan/" class="text-light"><span class="fa fa-github" aria-hidden="true"></span></a></li>
             </nav>
           </div>
         </div>
