@@ -38,9 +38,9 @@ var View={
     },*/
     introductionAnimate:function(){
         //profile Picture animation
-        document.getElementsByClassName('profile_picture')[0].style.transitionDelay='1.5s';
-        document.getElementsByClassName('profile_picture')[0].style.transitionDuration='2s';
-        document.getElementsByClassName('profile_picture')[0].style.transform='rotate(0deg)';
+        //document.getElementsByClassName('profile_picture')[0].style.transitionDelay='1.5s';
+        //document.getElementsByClassName('profile_picture')[0].style.transitionDuration='2s';
+        //document.getElementsByClassName('profile_picture')[0].style.transform='rotate(0deg)';
         //type function call
         //this.type();
     }
@@ -52,12 +52,4 @@ var Controller={
     }
 }
 
-Controller.init();
-
-// Uncomment to enable Bootstrap tooltips
-// https://getbootstrap.com/docs/4.0/components/tooltips/#example-enable-tooltips-everywhere
-// $(function () { $('[data-toggle="tooltip"]').tooltip(); });
-
-// Uncomment to enable Bootstrap popovers
-// https://getbootstrap.com/docs/4.0/components/popovers/#example-enable-popovers-everywhere
-// $(function () { $('[data-toggle="popover"]').popover(); });
+//Controller.init();
